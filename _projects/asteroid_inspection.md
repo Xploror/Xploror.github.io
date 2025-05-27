@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Distributed Asteroid Inspection Simulation
+description: Distributed GNC Architecture for Optimized Asteroid Inspection
+img: assets/img/website_project2.png
+importance: 2
+category: Upcoming
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.

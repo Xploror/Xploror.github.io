@@ -8,10 +8,12 @@
   author={Aryan, S.},
   year={2025},
   month={May},
-  journal={Accepted in CEAS Aeronautical Journal},
+  journal={CEAS Aeronautical Journal},
   publisher={CEAS Aeronautical Journal},
-  doi={https://doi.org/10.21203/rs.3.rs-3192381/v1},
-  preview={4.jpg}
+  doi={10.1007/s13272-025-00847-w},
+  abstract={With ever-growing advancements in the field of aerospace technology, there are much wider opportunities and capabilities emerging as a constant demand in terms of speed and accuracy. One of the major segments for any airborne mission is its Guidance–Navigation–Control technique which becomes very crucial for the aspects of speed and accuracy, especially for defense or highly complex missions such as missile launches, space missions, airstrikes, and many more. A controller technique that is much more accurate than its traditional counterparts like Proportional–Integral–Derivative (PID) Control and Linear Quadratic Regulator (LQR), as well as constantly considering any instantaneous state measurement noises into account, is an irresistible demand and advantageous over other control techniques in use. A Model Predictive Controller (MPC) can smoothly handle actuator constraints, angle-of-attack constraints, and pitch-angle constraints which makes it more versatile and near perfect for practical nonlinear systems. However, for a real system in addition to the inefficiencies in sensor readings, an actuator control input itself acts as a randomly distributed variable. Therefore, a robust control scheme is designed to leverage stochastic MPC’s optimal bounded control while considering the stochastic nature of the system’s states as well as the system’s actuators. As an example, a real-world quadcopter is mathematically modeled in its nonlinear state space representation cascaded with a nonlinear discrete Kalman filter with distinct covariances for both state and control measurements, to estimate the distribution of the quadcopter states. This is followed by the nonlinear model predictive controller which acts based on the system’s guidance requirements on the perturbated states at each time instance for optimal reference path tracking. The MPC’s overall prediction horizon cost function forms an un-deterministic optimization problem due to the probabilistic distribution of actuator values that is tackled via chance-constraint programming, followed by a unique implementation of the active set method to solve the problem for the entire prediction horizon. The performance of the proposed stochastic MPC solver is compared with a tuned PID controller for a stochastic quadcopter model where the proposed controller’s capability of bounded and smooth inner-loop and outer-loop tracking is highlighted compared to the PID’s discrete, inefficient performance in the presence of stochastic actuation. The supporting simulations for the proposed reference tracking technique are implemented in MATLAB/Simulink tool with numerical as well as graphical analysis results.},
+  selected={true},
+  preview={website_publication_logo1.png}
 }
 
 @inproceedings{downs2025,
@@ -23,7 +25,9 @@
   doi = {10.2514/6.2025-2716},
   URL = {https://arc.aiaa.org/doi/abs/10.2514/6.2025-2716},
   eprint = {https://arc.aiaa.org/doi/pdf/10.2514/6.2025-2716},
-  abstract = { Low Earth Orbit mega-constellations make up a large portion of modern developments in space communications. The ability to simulate and properly research these complex systems is currently being developed to answer questions on the capabilities of the rapidly expanding industry. The development and improvement of a simulation-based platform for satellite network testing can help research efforts to enable industry and government entities to work together in the growing enterprise. The ongoing development of the SpaceNet Testbed is investigated, detailing its use of orbit-based constellation dynamics modeling, software-based emulation, and a hardware-in-the-loop integration design. An overview of the testbed’s software infrastructure design is described alongside details regarding the make-up of its hardware components. Use cases are presented comparing the differences in performance between the satellite network of an actual Starlink mega-constellation currently in orbit and a custom constellation with the same quantity of satellites, but with ideal node spacing and initial orbital positioning. Results of these use cases are then discussed, focusing on the latency of the data traffic and how it differs when varying the testbed's user-defined configurations. In the future, resiliency testing and ground station to satellite link behavior analysis can be included into the testbed. The testbed has potential to help lead efforts in simulating complex space communication systems. }
+  abstract = { Low Earth Orbit mega-constellations make up a large portion of modern developments in space communications. The ability to simulate and properly research these complex systems is currently being developed to answer questions on the capabilities of the rapidly expanding industry. The development and improvement of a simulation-based platform for satellite network testing can help research efforts to enable industry and government entities to work together in the growing enterprise. The ongoing development of the SpaceNet Testbed is investigated, detailing its use of orbit-based constellation dynamics modeling, software-based emulation, and a hardware-in-the-loop integration design. An overview of the testbed’s software infrastructure design is described alongside details regarding the make-up of its hardware components. Use cases are presented comparing the differences in performance between the satellite network of an actual Starlink mega-constellation currently in orbit and a custom constellation with the same quantity of satellites, but with ideal node spacing and initial orbital positioning. Results of these use cases are then discussed, focusing on the latency of the data traffic and how it differs when varying the testbed's user-defined configurations. In the future, resiliency testing and ground station to satellite link behavior analysis can be included into the testbed. The testbed has potential to help lead efforts in simulating complex space communication systems. },
+  selected={true},
+  preview={website_publication_logo2.png}
 }
 
 @inproceedings{aryan2024jovian,
@@ -33,7 +37,7 @@
   booktitle = {AAS Astrodynamics Specialist Conference},
   year={2024},
   month=August,
-  preview={brownian-motion.gif}
+  preview={website_publication_logo3.gif}
 }
 
 @inproceedings{srgan_tqt,
@@ -45,109 +49,6 @@
   year = 2022,
   doi = "https://doi.org/10.4271/2022-26-0021",
   url = "https://doi.org/10.4271/2022-26-0021",
-  abstract = "Unmanned Aerial Vehicles (UAVs) are gaining significant popularity due to wide-scale applications in civilian and military use. Unmanned Aerial Vehicles are most commonly used for surveillance. Object tracking is one of the most important things that an autonomous UAV has to perform. However, the accuracy of the object tracking model degrades when the object fades away to some distance or if the input images have low resolution. High-resolution cameras are expensive and increase the overall cost of the UAV. The concept of SRGAN-TQT (Super-Resolution Generative Adversarial Network - Temporal Quad-Tree), an improved object tracking pipeline for UAVs in the presence of low-resolution cameras or distant objects, provides a cost-effective solution with enhanced accuracy to perform object tracking. Implementation of Super-Resolution - Generative Adversarial Networks (SRGANs) and Temporal Quad-Tree (TQT) along with state-of-the-art object detection algorithms serve as the backend of the pipeline. This approach uses Deep Neural Network-based GANs to upsample images precisely. Temporal Quad-Tree (TQT) is a motion tracking technique that is an extension of the popular Quad-Tree segmentation algorithm. The Temporal Quad-Tree algorithm is present to reduce the computational complexity and give a highly reliable tracking algorithm. This consequently omits the requirement of a high-resolution camera for UAVs while increasing the object tracking capability."
-}
-
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abstract = "Unmanned Aerial Vehicles (UAVs) are gaining significant popularity due to wide-scale applications in civilian and military use. Unmanned Aerial Vehicles are most commonly used for surveillance. Object tracking is one of the most important things that an autonomous UAV has to perform. However, the accuracy of the object tracking model degrades when the object fades away to some distance or if the input images have low resolution. High-resolution cameras are expensive and increase the overall cost of the UAV. The concept of SRGAN-TQT (Super-Resolution Generative Adversarial Network - Temporal Quad-Tree), an improved object tracking pipeline for UAVs in the presence of low-resolution cameras or distant objects, provides a cost-effective solution with enhanced accuracy to perform object tracking. Implementation of Super-Resolution - Generative Adversarial Networks (SRGANs) and Temporal Quad-Tree (TQT) along with state-of-the-art object detection algorithms serve as the backend of the pipeline. This approach uses Deep Neural Network-based GANs to upsample images precisely. Temporal Quad-Tree (TQT) is a motion tracking technique that is an extension of the popular Quad-Tree segmentation algorithm. The Temporal Quad-Tree algorithm is present to reduce the computational complexity and give a highly reliable tracking algorithm. This consequently omits the requirement of a high-resolution camera for UAVs while increasing the object tracking capability.",
+  preview={website_publication_logo4.png}
 }

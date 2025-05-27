@@ -1,14 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: 4-Body Quasi-Periodic tori & Transit Trajectories 
+description: Collocation-based computation of 4 body invariant quasi-periodic orbits for Jovian Moons, Europa & Callisto, finding transit librating trajectories due to Ganymede's periodicity
+img: assets/img/7.jpg
+redirect: https://github.com/Xploror/Celestial-N-body-problems
+importance: 3
+category: Recents
 ---
 
-Every project has a beautiful feature showcase page.
+You will be redirected to the main page within 3 seconds. If not redirected, please go back to the [home page]({{ site.baseurl | prepend: site.url }}).
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -78,4 +80,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
