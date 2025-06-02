@@ -1,83 +1,30 @@
 ---
 layout: page
-title: Multicopter Path Planning and Control
+title: Multicopter Path Planning and Mission Designing
 description: Design and development of Quadcopter and Hexacopters for level 4 autonomy
-img: assets/img/1.jpg
-redirect: https://github.com/Xploror/Simulink-Drone_Model
-importance: 3
+img: assets/img/website_project5.gif
+importance: 5
 category: Recents
+related_publications: true
 ---
 
-You will be redirected to the main page within 3 seconds. If not redirected, please go back to the [home page]({{ site.baseurl | prepend: site.url }}).
+Worked on designing robust guidance-navigation-control architecture for level 4 autonomous drones for precision agriculture in Indian private and government agriculture sectors. During my undergrad, as a GNC developer at <a href="https://generalaeronautics.com/">General Aeronautics Pvt Ltd</a> and research intern at <a href="https://sites.google.com/site/cintlabsno">Computational Intellegence Lab</a>, Indian Institute of Science, my responsibilities were centered on designing `Software-In-The-Loop (SITL)` and `Hardware-In-The-Loop (HITL)` modules for integrating custom RGBD and LiDAR-based obstacle detection with local Artificial Potential Field (APF) and <a href="https://github.com/Xploror/Col_avd_approach/tree/main/Dyn_window_avd">Dynamic Window Approach (DWA)</a> based collision avoidance techniques, simulateneously tracking high-precision drone kinematics with `GPS RTK`, `laser altimetry` and `RGBD based visual odometry`.  
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Interfaced and tested obstacle avoidance and radar-based ground clearance algorithm on non-compatible CAN-BUS interface with the `Pixhawk Orange Cube`, `RPI 4B` & `Jetson Nano`. With the objective of Variable Rate Application (VRA) in agricultural field, the decision making ROS scripts were implemented for executing circular navigation around detected tree canopy and a zigzag AUTO mode maneuvering for every row crops. The detection mechanism was based on visually differentiating between a target and an obstacle that was impletmented by training a CNN-based <a href="https://github.com/Xploror/Custom_Object_detection">Yolov6 object detection</a> model for over 100,000+ images of local crops, trees and possible obstacles. Additionally, a custom `MiDaS based depth estimation` algorithm was developed over a low-budget monocular camera for establishing a cone of object detection along the heading!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+During this time, I was engaged in solving a very interesting problem on optimizing a reference tracking guidance-control architecture {% cite aryan2025 %} while considering the existance of quadcopter actuator's non-negligible stochastic response to the control commands on top of well-studied measurement and process noise in the system. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project4_img/monocular_depth.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project4_img/apf_avoidance.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project4_img/circular_nav.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left is monocular-depth camera interface with SITL quadcopter's ROS master script. Middle represents the APF algorithm overriding Ardupilot mission during every obstacle detection. The right plot shows the circular maneuvering around a suspected target for canopy spraying.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %} -->

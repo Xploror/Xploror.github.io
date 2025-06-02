@@ -1,8 +1,8 @@
 ---
 layout: page
 title: SpaceNet LEO network emulator
-description: Two-Phase emulator architecture for realistic Low-Earth-Orbit (LEO) networks
-img: assets/img/9.jpg
+description: Two-Phase emulator architecture for realistic Low-Earth-Orbit (LEO) networks capable of providing network performance for satellite constellations like Starlink, Kuiper, OneWeb etc. Due to its modular architecture the testbed is scalable to multi-shell network topologies and allows flexible ISL & GSL grid schemes, static routing schemes, congestion routing and supports standard network test applications, Ping and IPerf.
+img: assets/img/website_project4_black.gif
 redirect: https://github.com/SpaceNetTestbed-public
 importance: 3
 category: Recents

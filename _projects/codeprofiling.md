@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: GSoC CERN Computational Project Task
+description: Evaluated code restructuring and profiling of C++ FastJet package for jet reconstruction simulations. Additionally, due to a need for high-fidelity integration while maintaining the particle's integral of motion, I developed and evaluated three short-listed Symplectic integrators for Geant4 simulations
+img: assets/img/website_project6.jpg
+importance: 6
+category: None
 ---
 
 Every project has a beautiful feature showcase page.

@@ -5,77 +5,36 @@ description: Distributed GNC Architecture for Optimized Asteroid Inspection
 img: assets/img/website_project2.png
 importance: 2
 category: Upcoming
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+With recent scientific interest in extracting resources and studying surface dynamics of the asteroids, proximity asteroid inspection is a crucial task of scientific interest for any asteroid rendezvous mission. The research aims to design a reference tracking adaptive Model Predictive Control (MPC) to optimally deal with the stochasticity in the dynamics proximal to an irregular-shaped asteroid and the model uncertainties due to the imperfect navigation and inertial measurements of individual distributed inspector mini-spacecrafts. A host/chief spacecraft once aligned to the asteroid's orbit deploys the mini-spacecraft towards the target asteroid after which a distributed guidance-control architecture robustly assigns the individual mini-spacecrafts into re-configurable orbits with the ultimate objective of executing a 3D asteroid inspection without breaking communications between the mini-spacecrafts and the host. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project work is highly focused on constructing a robust Guidance-Control Architecture which firstly involves selection of a suitable gravity model for the asteroid as a nominal dynamics model for the controller. Then, an Unscented Kalman Filter (UKF) is used for nonlinear estimation to realize the stochastic state and actuation distributions that are feed-forwarded to the stochastic MPC control optimization with hard constraints on proximity distance and collision avoidance. The orbit planning control scheme tracks the inspection cost and reconfigures the mini-spacecraft's orbits for optimal output. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row">
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/non_frozen_arbitrary_216kleopatra.jpg" title="polyhedral motion" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/flowchart.jpeg" title="overall architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+To deal with possible abrupt shifts in dynamics near asteroids, the receding horizon MPC control is cascaded with an adaptive Sliding Mode Controller that handles the unmatched uncertianty from the polyhedral gravity model. Overall, the top-level view of the architecture implements state estimations, orbit planning block, inspection progress-map and cost-map, and control block.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/x_tracking.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/y_tracking.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/z_tracking.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Adaptive Sliding Mode Control convergence results with two-body reference model and polyhedral gravity mdoel as actual dynamics 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

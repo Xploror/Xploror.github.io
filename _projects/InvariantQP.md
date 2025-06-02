@@ -2,9 +2,9 @@
 layout: page
 title: 4-Body Quasi-Periodic tori & Transit Trajectories 
 description: Collocation-based computation of 4 body invariant quasi-periodic orbits for Jovian Moons, Europa & Callisto, finding transit librating trajectories due to Ganymede's periodicity
-img: assets/img/7.jpg
-redirect: https://github.com/Xploror/Celestial-N-body-problems
-importance: 3
+img: assets/img/website_project3.gif
+redirect: https://github.com/Xploror/FourBody_InvariantManifolds.git
+importance: 4
 category: Recents
 ---
 

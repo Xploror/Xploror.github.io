@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: me.jfif
+  image: me_2.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -29,4 +29,4 @@ latest_posts:
 
 Hello there! I'm a Masters Thesis student in the [Department of Aerospace engineering](https://www.aoe.vt.edu/about-us.html) at Virginia Tech. My research interests are mainly focussed on developing computationally optimal guidance-navigation-control architectures, uncertainty quantification and heuristic learning-based decision making algorithms for airborne and space systems. I'm specifically interested in designing sustainable engineering solutions for model-based mission-critical environments, by leveraging my passion towards learning based control theory and stochastic nonlinear dynamics.
 
-Currently I hold the title as a Graduate Research Assistant at the [Center for Space Science and Engineering Research Group](https://www.space.vt.edu/) in Virginia Tech, where my role as a lead developer is to design a scalable space network ([SpaceNet](https://news.vt.edu/articles/2023/04/eng-aoe-network-testbed.html)) emulator for mega-constellations and realistic user segments, and deploy for an open-source commercial access. 
+Currently I hold the title as a Graduate Research Assistant at the [Center for Space Science and Engineering Research Group](https://www.space.vt.edu/) in Virginia Tech, where my role as a lead developer is to design a scalable space network ([SpaceNet](https://news.vt.edu/articles/2023/04/eng-aoe-network-testbed.html)) emulator for mega-constellations & realistic user segments, and deploy for an open-source commercial access. 
