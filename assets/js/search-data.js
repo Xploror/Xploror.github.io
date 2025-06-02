@@ -108,12 +108,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-9",
+          section: "News",},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
@@ -130,11 +125,11 @@ ninja.data = [{
               window.location.href = "/projects/SelenoNet/";
             },},{id: "projects-spacenet-leo-network-emulator",
           title: 'SpaceNet LEO network emulator',
-          description: "Two-Phase emulator architecture for realistic Low-Earth-Orbit (LEO) networks",
+          description: "Two-Phase emulator architecture for realistic Low-Earth-Orbit (LEO) networks capable of providing network performance for satellite constellations like Starlink, Kuiper, OneWeb etc. Due to its modular architecture the testbed is scalable to multi-shell network topologies and allows flexible ISL &amp; GSL grid schemes, static routing schemes, congestion routing and supports standard network test applications, Ping and IPerf.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SpaceNet-project/";
-            },},{id: "projects-multicopter-path-planning-and-control",
-          title: 'Multicopter Path Planning and Control',
+            },},{id: "projects-multicopter-path-planning-and-mission-designing",
+          title: 'Multicopter Path Planning and Mission Designing',
           description: "Design and development of Quadcopter and Hexacopters for level 4 autonomy",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UAV-research/";
@@ -143,6 +138,11 @@ ninja.data = [{
           description: "Distributed GNC Architecture for Optimized Asteroid Inspection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/asteroid_inspection/";
+            },},{id: "projects-gsoc-cern-computational-project-task",
+          title: 'GSoC CERN Computational Project Task',
+          description: "Evaluated code restructuring and profiling of C++ FastJet package for jet reconstruction simulations. Additionally, due to a need for high-fidelity integration while maintaining the particle&#39;s integral of motion, I developed and evaluated three short-listed Symplectic integrators for Geant4 simulations",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/codeprofiling/";
             },},{
         id: 'social-email',
         title: 'email',
