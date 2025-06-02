@@ -11,7 +11,7 @@ related_publications: true
 
 Space communication from its genesis has played a key role in providing secure, high-speed global services that are accessible to most terrestrial users anywhere on Earth. However, with a plethora of upcoming space missions planned for at least the next decade, the Cislunar regime plays a centerpiece in all the missions. A dedicated satellite constellation around the moon and a dedicated relay system in the Cislunar space can greatly enhance the efficiency of accessing Earth, additionally also acting as a sustainable means of cislunar and deep-space communication. This thesis work aims to have an initial design architecture motivation from NASA & ESA's LunaNet concept on a high-fidelity lunar frozen constellation with supporting relay satellites acting as gateways between Earth and Lunar constellations.
 
-The study focus on designing constellations that could support communication and PNT services for lunar surface and orbiting users. Initial studies are based on providing these services to the high-density terminals on South pole, thus shortlisting to an Elliptical Lunar Frozen Orbit (ELFO) scenario!
+The study focus on designing constellations that could support communication and PNT services for lunar surface and orbiting users. Initial studies are based on providing these services to the high-density terminals on South pole, thus shortlisting to an `Elliptical Lunar Frozen Orbit (ELFO)` scenario!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,5 +47,5 @@ The designing of the constellation was done with `particle swarm multi-objective
     </div>
 </div>
 <div class="caption">
-    Sea of Tranquality to Schrodinger Basin ping test.
+    Multi-Objective Particle Swarm Optimization of ELFO constellations for Lunar users
 </div>
