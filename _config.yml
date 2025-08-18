@@ -87,10 +87,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Xploror's expeditions # blog_name will be displayed in your blog page
+blog_description: Personal blogs and community engagement
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
@@ -125,6 +125,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@suryaryan/feed
+  - name: LinkedIn activity
+    posts:
+      - url: https://www.linkedin.com/posts/suryansh-aryan-91a035165_starlink-kuiper-iridium-activity-7360555069563437057-_2Qz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACdWaeYBGTEWpp_Coe73CjgIfYCiLyrkGEk
+        published_date: 2025-08-10
   - name: LinkedIn activity
     posts:
       - url: https://www.linkedin.com/posts/suryansh-aryan-91a035165_last-month-i-had-the-opportunity-to-learn-activity-7283935706698121218-I03h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACdWaeYBGTEWpp_Coe73CjgIfYCiLyrkGEk
@@ -261,8 +265,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+#display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+#display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
