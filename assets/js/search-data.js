@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-this-week-at-the-small-satellite-conference-smallsat-salt-lake-city-utah-i-will-be-presenting-on-the-latest-capabilities-and-findings-from-virginia-tech-39-s-leo-space-network-emulator-called-suryansh-aryan-posted-on-the-topic-linkedin",
+        },{id: "post-virginia-tech-presents-spacenet-at-smallsat-conference-suryansh-aryan-posted-on-the-topic-linkedin",
         
-          title: 'This week at the Small Satellite Conference (SmallSat), Salt Lake City, Utah, I... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Virginia Tech presents SpaceNet at SmallSat Conference | Suryansh Aryan posted on the... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "This week at the Small Satellite Conference (SmallSat), Salt Lake City, Utah, I will be presenting on the latest capabilities and findings from Virginia Tech&#39;s LEO space network emulator called SpaceNet. It serves as a digital twin, simulating delay-tolerant networks for LEO mega-constellations like #Starlink, #Kuiper, and #Iridium, while capable of incorporating link budgets for custom terrestrial device types and satellite comm modules. Its unique two-phase simulation-emulation architecture allows enhanced scalability and resource management without compromising the high fidelity of the entire digital system.To all SmallSat attendees at the conference, please do visit booth E8 in the poster section for further details on our project or to just connect with us. We are also open to collaborating with people in satellite communication fields and get in-touch with emerging small satellite communication technologies that could enhance our digital emulation performance.Explore our Github codebase: https://lnkd.in/epnRAzum Poster access: https://lnkd.in/e86k4UHn#smallsat2025 #spacetech #digitaltwin #networkemulation #SpaceNet",
         section: "Posts",
@@ -52,9 +52,9 @@ ninja.data = [{
             window.open("https://www.linkedin.com/posts/suryansh-aryan-91a035165_last-month-i-had-the-opportunity-to-learn-activity-7283935706698121218-I03h?utm_source=share&utm_medium=member_desktop&rcm=ACoAACdWaeYBGTEWpp_Coe73CjgIfYCiLyrkGEk", "_blank");
           
         },
-      },{id: "post-last-week-i-had-a-fantastic-time-at-the-2024-american-astronautical-society-aas-astrodynamics-specialist-conference-in-broomfield-colorado-suryansh-aryan",
+      },{id: "post-astrodynamics-suryansh-aryan",
         
-          title: 'Last week, I had a fantastic time at the 2024 American Astronautical Society... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '#astrodynamics | Suryansh Aryan <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "Last week, I had a fantastic time at the 2024 American Astronautical Society (AAS) Astrodynamics Specialist Conference in Broomfield, Colorado! Connecting with like-minded individuals and delving into the latest #Astrodynamics research was truly inspiring.During the event, I had the privilege of presenting my research work on &quot;Four Body Invariant Structures And Chaos Analysis For Jovian Multi-Moon Ballistic Transfers,&quot; alongside my advisor Dr. Riley Fitzgerald. I immensely look forward to further discussions on orbital stability and perturbation theory with the community soon. Check out my paper here for more details: https://lnkd.in/dRKJBdpg",
         section: "Posts",
