@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lunar Network Emulation
-description: Master's Thesis on Interoperable Earth-Lunar communication service architecture
+description: Master's Thesis on sustainable Earth-Lunar communication & navigation service architecture
 img: assets/img/website_project12.png
 redirect: 
 importance: 1
@@ -22,11 +22,30 @@ The study focus on designing constellations that could support communication and
     Elliptical Lunar Frozen Orbit (ELFO) STK Visualization.
 </div>
 
+SelenoNet brings together a high-fidelity instantiation of Earth based control ground stations, relay satellite systems in the Cislunar regime and a lunar service constellation systems (Walker or ELFO types) with all levels of relevant interactions needed to support sustainable communication and navigation services to the lunar-based users. Its support for both lunar orbits as well as Earth-Moon L1 Lissajous & Halo orbits with a backend RFC-9174 based BPv7 deep space communication protocol allows a realistic emulation of transreceiving signals between Earth. Moreover, the lunar main constellation has additional navigation data broadcating support that the simulated lunar receivers can actively listen to and estimate their precise point positions, additionally, also running an Extended Kalman Filter (EKF) algorithm to ameliorate the positions for both inertial and non-inertial kinematics.      
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/relaying.gif" title="Relaying STK visualization" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/static.gif" title="Stationary user on Moon surface" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/orbiting_err_ellipse.gif" title="Lunar orbiting user" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Position-Navigation-Timing Least Square (orange) and EKF (purple) point position estimates for a stationary user at South pole and a lunar orbiting user. [16sat ELFO navigation constellation.]
+</div>
+
 Virginia Tech's SpaceNet emulator {% cite downs2025 %} leveraged to analyze the network perforamance between specified source and destination nodes. The emulator's flexible support for inertial/non-inertial users and dynamics block allows for near-realistic values of latency and throughput metrics. Figures below show one of the initial experiment of the testbed's lunar support with the associated Round Trip Time (RTT) plot.   
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project1_img/lunar_testcase.gif" title="Lunar testcase" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/lunar_testcase_80elfo.gif" title="ELFO Lunar testcase" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project1_img/Lunar_Tranquality_Schrodingerbasin.png" title="ping results" class="img-fluid rounded z-depth-1" %}
