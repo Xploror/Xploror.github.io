@@ -124,7 +124,7 @@ ninja.data = [{
               window.location.href = "/projects/InvariantQP/";
             },},{id: "projects-lunar-network-emulation",
           title: 'Lunar Network Emulation',
-          description: "Master&#39;s Thesis on Interoperable Earth-Lunar communication service architecture",
+          description: "Master&#39;s Thesis on sustainable Earth-Lunar communication &amp; navigation service architecture",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SelenoNet/";
             },},{id: "projects-spacenet-leo-network-emulator",
