@@ -122,8 +122,8 @@ ninja.data = [{
           description: "Collocation-based computation of 4 body invariant quasi-periodic orbits for Jovian Moons, Europa &amp; Callisto, finding transit librating trajectories due to Ganymede&#39;s periodicity",
           section: "Projects",handler: () => {
               window.location.href = "/projects/InvariantQP/";
-            },},{id: "projects-lunar-network-emulation",
-          title: 'Lunar Network Emulation',
+            },},{id: "projects-lunar-network-digital-twin",
+          title: 'Lunar Network Digital Twin',
           description: "Master&#39;s Thesis on sustainable Earth-Lunar communication &amp; navigation service architecture",
           section: "Projects",handler: () => {
               window.location.href = "/projects/SelenoNet/";
