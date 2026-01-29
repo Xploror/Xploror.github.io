@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lunar Network Emulation
+title: Lunar Network Digital Twin
 description: Master's Thesis on sustainable Earth-Lunar communication & navigation service architecture
 img: assets/img/website_project12.png
 redirect: 
