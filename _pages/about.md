@@ -31,6 +31,6 @@ Hello fellow humans! I'm a Masters Thesis student in the [Department of Aerospac
 
 I currently serve as a Research Assistant in the [Center for Space Science and Engineering Research Group](https://www.space.vt.edu/) at Virginia Tech, where my role as a lead developer is to design a scalable system-level space network ([SpaceNet](https://news.vt.edu/articles/2023/04/eng-aoe-network-testbed.html)) testbed for network emulation over mega-constellations & realistic user segments that is deployable for an open-source commercial access. As I navigate myself in the industry, I'm looking for collaborations and industry position in similar area of interests, to which I am flexible to relocations and have no work sponsorship requirements.
 
-I'm always excited to connect with people who share an interest in space systems, networked autonomy, astrodynamics, and the future of lunar exploration. If you're working on challenging problems in these areas, or simply enjoy discussing big ideas in computational science, let's connect.
+I'm always excited to connect with people who share an interest in space systems, distributed network of system autonomy, astrodynamics, and the future of lunar exploration. If you're working on challenging problems in these areas, or simply enjoy discussing big ideas in computational science, let's connect!
 
 <!-- Mention your skillset and technical background -->
