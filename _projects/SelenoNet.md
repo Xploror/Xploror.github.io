@@ -2,14 +2,14 @@
 layout: page
 title: Lunar Network Digital Twin
 description: Master's Thesis on sustainable Earth-Lunar communication & navigation service architecture
-img: assets/img/website_project12.png
+img: assets/img/website_selenonet_cover.png
 redirect: 
 importance: 1
-category: Upcoming
+category: Recents
 related_publications: true
 ---
 
-Space communication from its genesis has played a key role in providing secure, high-speed global services that are accessible to most terrestrial users anywhere on Earth. However, with a plethora of upcoming space missions planned for at least the next decade, the Cislunar regime plays a centerpiece in all the missions. A dedicated satellite constellation around the moon and a dedicated relay system in the Cislunar space can greatly enhance the efficiency of accessing Earth, additionally also acting as a sustainable means of cislunar and deep-space communication. This thesis work aims to have an initial design architecture motivation from NASA & ESA's LunaNet concept on a high-fidelity lunar frozen constellation with supporting relay satellites acting as gateways between Earth and Lunar constellations.
+Space communication from its genesis has played a key role in providing secure, high-speed global services that are accessible to most terrestrial users anywhere on Earth. However, with a plethora of upcoming space missions planned for the next couple of decades, the cislunar regime will be the next frontier. A dedicated satellite constellation around the moon and a dedicated relay system in cislunar space can greatly enhance the efficiency of accessing Earth, additionally also acting as a sustainable means of deep-space communication. This thesis work aims to analyze an initial design architecture motivated from NASA, ESA & JAXA’s LunaNet concept with a stable lunar constellation model (specifically the Elliptical Lunar Frozen Orbits) with relay satellites acting as gateways between Earth and Lunar network nodes. Moreover, various forms of delay and disruptive scenarios are designed to stress-test the communication and navigation performances for various types of lunar users. The validation of high-fidelity cislunar dynamics is implemented in Ansys STK simulation and the performance analysis is derived using the developed simulation framework called, SelenoNet and its core deep-space communication and navigation process architecture.
 
 The study focus on designing constellations that could support communication and PNT services for lunar surface and orbiting users. Initial studies are based on providing these services to the high-density terminals on South pole, thus shortlisting to an `Elliptical Lunar Frozen Orbit (ELFO)` scenario!
 
@@ -31,10 +31,10 @@ SelenoNet brings together a high-fidelity instantiation of Earth based control g
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project1_img/static.gif" title="Stationary user on Moon surface" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/static_thesis.gif" title="Stationary user on Moon surface" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project1_img/orbiting_err_ellipse.gif" title="Lunar orbiting user" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project1_img/orbiting_thesis.gif" title="Lunar orbiting user" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
