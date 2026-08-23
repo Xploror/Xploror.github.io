@@ -9,7 +9,7 @@ last_name: Aryan
 contact_note: >
   Please feel free to connect with me on LinkedIn or drop your message to my email-address (for quick response).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Learn about Suryansh Aryan in this personal website.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,7 +19,7 @@ icon: 🔆 # the emoji used as the favicon (alternatively, provide image name in
 
 url: https://Xploror.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -125,6 +125,14 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@suryaryan/feed
+  - name: LinkedIn activity
+    posts:
+      - url: https://lnkd.in/p/eBSQTxZS
+        published_date: 2026-08-01
+  - name: LinkedIn activity
+    posts:
+      - url: https://lnkd.in/p/eUMmmFEy
+        published_date: 2026-06-20
   - name: LinkedIn activity
     posts:
       - url: https://www.linkedin.com/posts/suryansh-aryan-91a035165_starlink-kuiper-iridium-activity-7360555069563437057-_2Qz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACdWaeYBGTEWpp_Coe73CjgIfYCiLyrkGEk
