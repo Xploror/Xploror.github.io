@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> <html><body> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>          Agree &amp; Join LinkedIn
+        
+  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+I spent the past few weeks building satellite-pass-app, a Python tool that tracks when specific satellites are visible from a ground location, using live TLE/positional data. Beyond the very simple core logic (config-driven via YAML, three output modes — terminal, file, HTTP server), I treated this as a chance to practice my software engineering skills that matters as much as the feature itself:
+</code></pre></div></div> <p>• Full test suite (pytest) covering config parsing, providers, and output handlers • Type checking with mypy + linting/formatting enforced via ruff (centralized in pyproject.toml) • CI pipeline on every push/PR — lint → format check → type check → tests → production image build → container smoke test • Multi-stage Dockerfile: a dev image with full tooling and test execution baked into the build, and a hardened, non-root production image • docker-compose orchestration to run dev and prod environments side by side</p> <p>It’s a small side-project and none of this was required to make the core feature work, but the goal was to build it the way I’d want a satellite-ops tool built: reproducible, tested, and safe to hand off to someone else without a walkthrough. My next efforts are to eliminate the app’s reliance on live third-party API calls by importing TLE data directly and propagating with SGP4, closer to how real tracking systems handle intermittent connectivity.</p> <p>If you work anywhere near satellite ops or mission software, I’d love to hear feedbacks towards the software approach.</p> <p>Repo: https://lnkd.in/ed3gMzMG</p> <p>#SatelliteTracking #AerospaceEngineering #SoftwareEngineering #Python #DevOpsNice stuff! If you haven’t already, you should play around with OSTk - the open source astrodynamics library that we use in ops at Loft! https://github.com/open-space-collective</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    To view or add a comment, sign in
+
+        980 followers
+      
+                  Create your free account or sign in to continue your search
+                
+                  or
+                
+                New to LinkedIn? Join now
+              
+  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+</code></pre></div></div> </body></html>
