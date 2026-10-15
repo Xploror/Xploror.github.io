@@ -127,6 +127,14 @@ external_sources:
     rss_url: https://medium.com/@suryaryan/feed
   - name: LinkedIn activity
     posts:
+      - url: https://lnkd.in/p/ejp4HyKq
+        published_date: 2026-10-05
+  - name: LinkedIn activity
+    posts:
+      - url: https://lnkd.in/p/ek7yqHAb
+        published_date: 2026-09-10
+  - name: LinkedIn activity
+    posts:
       - url: https://lnkd.in/p/eBSQTxZS
         published_date: 2026-08-01
   - name: LinkedIn activity
