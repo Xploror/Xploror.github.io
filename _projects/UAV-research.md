@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Multicopter Path Planning and Mission Designing
-description: Design and development of Quadcopter and Hexacopters for level 4 autonomy
+description: Design and development of Unmanned Aerial Vehicles (UAVs) for level 4 autonomy based on model-dependent controller designs, real-time CNN-based object detection, and APF/DWA based object avoidance. 
 img: assets/img/website_project5.gif
 importance: 5
-category: Recents
+category: Archieved
 related_publications: true
 ---
 

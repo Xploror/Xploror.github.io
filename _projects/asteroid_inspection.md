@@ -3,7 +3,7 @@ layout: page
 title: Distributed Asteroid Inspection Simulation
 description: Distributed GNC Architecture for Optimized Asteroid Inspection
 img: assets/img/website_project2.png
-importance: 2
+importance: 1
 category: Upcoming
 giscus_comments: false
 ---

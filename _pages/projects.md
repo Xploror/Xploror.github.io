@@ -6,7 +6,7 @@ permalink: /projects/
 nav: true
 nav_order: 3
 # display_categories: [Recents, Upcoming, Personal]
-display_categories: [Recents, Upcoming]
+display_categories: [Recents, Upcoming, Archieved]
 horizontal: true
 ---
 
