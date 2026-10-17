@@ -52,9 +52,9 @@ ninja.data = [{
             window.open("https://lnkd.in/p/ek7yqHAb", "_blank");
           
         },
-      },{id: "post-last-week-i-finished-a-time-intensive-project-in-the-wolfra-linkedin",
+      },{id: "post-wsri26-wolfram-sitnikov-suryansh-aryan",
         
-          title: 'Last week, I finished a time-intensive project in the Wolfra | LinkedIn <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '#wsri26 #wolfram #sitnikov | Suryansh Aryan <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "Last week, I finished a time-intensive project in the Wolfram Summer Research Institute (#WSRI26) titled “Inverting the Sitnikov Problem.” It was a unique effort in exploring the computational approaches in inverting a restricted version of the three-body problem using the #Wolfram language. I am incredibly grateful to my mentors, Pavel Hájek and Jesús Adrián Montesinos Correa, for their constant guidance, late-night discussions, and support throughout the program.The #Sitnikov problem is a classic example of the emergent chaotic dynamics of a particle under the gravitational influence of two orbiting primary bodies. While traditional research on the problem has identified initial condition sensitivity and invariances in the phase space, my project focused on inverting the Sitnikov theorem (https://lnkd.in/gjBbu9wT): determining computable initial conditions for a desired dynamical behavior. By using concepts from symbolic dynamics, partitioning discrete phase space, and finite-time Lyapunov exponent analysis, this project developed a database for over 1 million sample points and built the inverting technique to identify initial conditions associated with prescribed crossing sequences in the chaotic Sitnikov system.Find my computational essay here: https://lnkd.in/gHW44btgI would like to sincerely thank all the mentors, organizers, and Wolfram staff for some of the most amazing theoretical concepts I learned from countless lectures and workshops, making this program such a rewarding experience. Special thanks to Stephanie Bowyer for creating an environment that encouraged collaboration, learning, and exploration, and to Stephen Wolfram for supporting initiatives that bring together researchers around the world to tackle interesting computational problems. I am grateful for the opportunity to be part of this community and for everything I learned throughout the program.",
         section: "Posts",
@@ -163,9 +163,19 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-4-body-quasi-periodic-tori-amp-transit-trajectories",
           title: '4-Body Quasi-Periodic tori &amp;amp; Transit Trajectories',
-          description: "Collocation-based computation of 4 body invariant quasi-periodic orbits for Jovian Moons, Europa &amp; Callisto, finding transit librating trajectories due to Ganymede&#39;s periodicity",
+          description: "Collocation-based computation of 4 body invariant quasi-periodic orbits for Jovian Moons, Europa &amp; Callisto, finding transit librating trajectories due to Ganymede&#39;s periodicity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/InvariantQP/";
+            },},{id: "projects-satellite-groundaccess-app",
+          title: 'Satellite GroundAccess App',
+          description: "Python standalone application for synchronous and asynchronous satellite tracking and visibility access report.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Satellite-GroundAccess-App/";
+            },},{id: "projects-leo-rendezvous-app",
+          title: 'LEO Rendezvous App',
+          description: "An interactive MATLAB/Simulink environment for testing and comparing three 3-axis attitude controllers on a chaser spacecraft with ISS approaching kinematic profile.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Satellite_Rendezvous_App/";
             },},{id: "projects-lunar-network-digital-twin",
           title: 'Lunar Network Digital Twin',
           description: "Master&#39;s Thesis on sustainable Earth-Lunar communication &amp; navigation service architecture",
@@ -178,7 +188,7 @@ ninja.data = [{
               window.location.href = "/projects/SpaceNet-project/";
             },},{id: "projects-multicopter-path-planning-and-mission-designing",
           title: 'Multicopter Path Planning and Mission Designing',
-          description: "Design and development of Quadcopter and Hexacopters for level 4 autonomy",
+          description: "Design and development of Unmanned Aerial Vehicles (UAVs) for level 4 autonomy based on model-dependent controller designs, real-time CNN-based object detection, and APF/DWA based object avoidance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/UAV-research/";
             },},{id: "projects-distributed-asteroid-inspection-simulation",
