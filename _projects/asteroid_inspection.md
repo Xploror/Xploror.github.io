@@ -14,7 +14,7 @@ This project work is highly focused on constructing a robust Guidance-Control Ar
 
 <div class="row">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project2_img/non_frozen_arbitrary_216kleopatra.jpg" title="polyhedral motion" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project2_img/tracking.jpg" title="polyhedral motion" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project2_img/flowchart.jpeg" title="overall architecture" class="img-fluid rounded z-depth-1" %}
